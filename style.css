@@ -1,0 +1,173 @@
+ /*Default Styes*/
+
+* {
+   margin: 0px;
+   padding: 0px; 
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    }
+
+body {
+  font-family: "arial";
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navigation {
+  display: block;
+  height: 50px;
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+    }
+
+li {
+  padding: 10px;
+}
+
+a {
+	text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ /*Navigation Bar Styles*/
+
+nav {
+  width: 100%;
+}
+
+ul.nav {
+  float: right;
+    }
+    
+.nav li {
+  display: inline;
+    }
+
+button {
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  background: #367bf9;
+  background: -webkit-linear-gradient(#367bf9, #3a74d1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#367bf9, #3a74d1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#367bf9, #3a74d1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#367bf9, #3a74d1); /* Standard syntax */
+  border-radius: 2px;
+}
+
+i {
+  position: relative;
+  top: 6px;
+}
+
+
+ /*Main Section Styles*/
+
+.logo {
+  width: 300px;
+  margin: 0 auto;
+  padding: 150px 0 0 0;
+}
+
+form {
+  width: 600px;
+  padding: 500px auto;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background: blue;
+}
+
+form i {
+  position: relative;
+  top: -30px;
+  float: right;
+  right: 10px;
+}
+
+.search-bar input {
+  position: relative;
+  padding: 5px 15px;
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+  display: block;
+  font-size:16px;
+}
+
+.button {
+  width: 300px;
+  margin: 0 auto;
+  padding: 0 0 100px 0;
+  display: block;
+  position: relative;
+  left: 10px;
+}
+
+.button input {
+  padding: 10px 15px;
+  border: solid black 0;
+  background: rgba(0, 0, 0, 0.07);
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  margin: 0px 5px;
+}
+
+ /*Footer Styes*/
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 40px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: solid slate-grey 0.3px;
+  padding-top: 15px;
+  font-size: 13px;
+}
+
+.footer li {
+  display: inline;
+    }
+
+ul.footer-right {
+  float: right;
+  padding-right: 15px;
+    }
+
+ul.footer-left {
+  float: left;
+  padding-left: 15px;
+    }
+
+.footer-left, .footer-right {
+  padding: 0px;
+  margin: none;
+}
+
+@media screen and (max-width: 400px) {
+  .search-bar {
+    width: 90%;
+  }
+  .footer li {
+    display: block;
+    line-height: 1em;
+    }
+  .footer {
+    height: 120px;
+  }
+}
